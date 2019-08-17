@@ -12,7 +12,8 @@ else {
 if (idade >= 18 && sexo == "M") {
     console.log("Voce nao possui desconto");
 }
-else if (idade >= 18 && sexo == "M") {
+else if (idade >= 18 && sexo == "M") 
+{
     console.log("Voce tem 20% desconto e um refrigerante");
 }
 else if (sexo == "F") {
@@ -21,3 +22,4 @@ else if (sexo == "F") {
 else {
     console.log("Voce tem 10% desconto");
 }
+
